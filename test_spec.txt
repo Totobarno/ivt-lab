@@ -1,0 +1,5 @@
+1. SINGLE első lövés a PrimaryStore-ból törénik eredmény: igaz.
+2. SINGLE két lövés a második lövés a SecondaryStore-ból történik eredmény: igaz.
+3. SINGLE a store elromlik nem történik lövés eredmény: hamis.
+4. SINGLE a következő store üres, a másik store-ból történik a lövés eredmény: igaz.
+5. ALL mindkét store kilövésre kerül de csak az egyik lő eredmény: igaz.
